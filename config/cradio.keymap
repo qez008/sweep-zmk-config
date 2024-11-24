@@ -58,6 +58,11 @@
             bindings = <&sys_reset>;
             key-positions = <1 2 3 1 2 3>;
         };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
@@ -123,6 +128,15 @@
 &kp COLON  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS        &trans  &trans  &bt BT_PRV  &trans  &trans
 &kp TILDE  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(BSLH)    &trans  &trans  &trans      &trans  &trans
                                    &kp LS(N0)  &kp UNDER       &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
