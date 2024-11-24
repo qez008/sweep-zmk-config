@@ -63,6 +63,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <6 7>;
         };
+
+        escape {
+            bindings = <&kp ESC>;
+            key-positions = <4 5>;
+        };
     };
 
     keymap {
